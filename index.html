@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Coffee</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shop Coffee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Thực đơn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary nav-link" href="login.php">Đăng nhập</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Chào mừng đến với Shop Coffee</h1>
+            <p class="lead">Nơi tận hưởng hương vị cà phê đích thực</p>
+            <img src="images/shop_coffee.jpg" class="img-fluid mt-4" alt="Hình ảnh cửa hàng cà phê">
+            <a href="#menu" class="btn btn-outline-light btn-lg mt-3">Khám phá Thực Đơn</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Về Chúng Tôi</h2>
+            <p class="text-center">Shop Coffee là nơi mang đến cho bạn những ly cà phê tuyệt vời nhất, được chế biến từ
+                những hạt cà phê chất lượng cao. Chúng tôi tự hào với không gian thoải mái, dịch vụ tận tình và những
+                món nước pha chế độc đáo.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <img src="images/shop1.webp" class="img-fluid rounded" alt="Không gian bên trong quán">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/shop2.webp" class="img-fluid rounded" alt="Hình ảnh nhân viên phục vụ cà phê">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Thực Đơn</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="images/black_coffee.jpg" class="img-fluid rounded mb-3" alt="Cà phê đen">
+                    <h3>Cà Phê Đen</h3>
+                    <p>Cà phê đen nguyên chất với hương vị đậm đà.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/milk_coffee.png" class="img-fluid rounded mb-3" alt="Cà phê sữa">
+                    <h3>Cà Phê Sữa</h3>
+                    <p>Cà phê sữa ngọt ngào dành cho những ai yêu thích sự dịu dàng.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/latte.jpg" class="img-fluid rounded mb-3" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>Hương vị nhẹ nhàng, pha trộn giữa sữa và cà phê.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Liên Hệ</h2>
+            <p class="text-center">Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với chúng tôi qua số điện thoại
+                hoặc email dưới đây.</p>
+            <p class="text-center">Điện thoại: 083 883 1503</p>
+            <p class="text-center">Email: chinh31503@gmail.com</p>
+            <div class="text-center">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39577.3824664117!2d105.7651152367315!3d20.964389513606715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2zSOG7jWMgdmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IGNow61uaCB2aeG7hW4gdGjDtG5n!5e0!3m2!1svi!2s!4v1731597251190!5m2!1svi!2s"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Shop Coffee. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
